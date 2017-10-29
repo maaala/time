@@ -42,10 +42,10 @@ public class Main {
 				if (j == 1 && i != 7) {
 					rest_day -= 31;
 					j = 0;
-				} else if (true) {
+				} else {
 					rest_day -= 30;
 					j = 1;
-				} else break;
+				}
 			}
 			month = i + 1;
 		}
